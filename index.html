@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>styling class</title>
+</head>
+<body>
+    <h1 id="heading">Hello from styling class</h1>
+    <h1 class="sub-heading">my other heading</h1>
+    <span>
+        hello world
+    </span>
+    <span>helo boo</span>
+    <span id="buhari">hello again</span>
+    <div class="example" id="one">class selector example 1</div>
+    <div class="example">class selector example 2</div>
+    <div class="example">class selector example 3</div>
+    <div class="example"> class selector example 4</div>
+    <p id="one">gone are the good old days. nigeria is finished mehn.<p><br/>
+        <h2>working on a CSS grouping selector</h2>
+        <form>
+            <input type="text" placeholder="name">
+            <input type="search" name="" value="" placeholder="search">
+        </form>
+        <h4>I will always win so help me God</h4>
+        <h2>My name is Genevieve, few people know me by that name</h2>
+        <p>this is a well known paragraph</p>
+        <div>
+            <p>every paragraph will be affected by the style</p>
+            <p id="para1">me too</p>
+            <p>and me</p>
+        </div>
+        <p id="para1"> What a wonderful world</p>
+        <p>this paragraph is not affectedby the style</p><br/><br/>
+        <h1 class="right">black and right aligned heading. peace to beautiful souls</h1>
+        <p class="right">black and right aligned heading. peace to beautiful sous</p>
+        <p class="right">black and right aligned heading. peace to beautiful souls</p>
+        <h1 class="center">This heading will not be affected</h1>
+        <p class="center">this paragraph will be skyblue and center aligned</p>
+        <p class="center large"> This paragraph will be skyblue,center-aligned and in a large font-size</p>
+        <p> Note that every element on the html file will be affected by the universal selector</p>
+        <h3>Descendant selector</h3>
+        <p> the descendant selector matches all elements that are descendant of a specific element</p>
+        <div>
+            <section>
+               <p>paragraph one in a div</p>
+            <p>paragraph two in a div</p>
+            <p>paragraph three in a div </p>
+            </section>
+            <p>paragraph four not in a div</p>
+            <p>paragraph five not in a div</p>
+        </div>
+        <h2>Child selector</h2>
+        <div>
+            <p>the child selector (>) selects all elements that are the children of a specific elements.</p>
+            <div>
+                <p class="right">i am all yors lord</p>
+            <p class="right"> i am all yours lord.</p>
+            <section>
+                <!--not child but descendant-->
+                <p class="right">paragraph in the div(inside a section element)</p>
+            </section>
+            <p class="right">paragraph 4 in the div</p>
+            <p class="right">paragraph 5.Not in a div</p>
+            </div>  
+        </div>
+        <h2> ADJACENT SIBLINGS SELECTOR</h2>
+        <P>The +selector is used to select an element that is directly after another specific element</P>
+        <p>the following example selects the first p element that are placed immediately after div element. </p>
+        <div>
+            <p> paragraph 1 in the div.</p>
+            <p>paragraph 2 in the div.</p>
+        </div>
+        <p> paragraph 3 after a div</p>
+        <p>paragraph 4 after a div</p>
+        <div>
+            <p>paragraph 5 in a div</p>
+            <p>paragraph 6 in a div</p>
+        </div>
+        <p>paragraph 7 outside a div</p>
+        <p>paragraph 8 outside a div</p>
+        <h2> styling a link depending on state (Anchor psuedo-classes)</h2>
+        <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+        <p><b>Note</b>a:hover MUST come after a:link and a:visited in the css definition in order to be effective</p>
+        <p><b>Note</b>a:active MUST come after a:hover in the css definition in order to be effective.</p>
+        <p>mouse over the div element below to change its background colour:</p>
+        <div> Mouse over me</div>
+</body>
+</html>

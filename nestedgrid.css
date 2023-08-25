@@ -1,0 +1,83 @@
+.Grid-box {
+    display: grid;
+    text-align: center;
+    gap: 16px;
+    height: 500px;
+    padding: 20px;
+    background-color: blue;
+    grid-template-areas: 'a a a b b b c c c' 
+    'd d d e e e c c c'
+    'd d d e e e c c c'; 
+}
+.a, .b, .c {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+.a {
+    grid-area: a;
+}
+.b {
+    grid-area: b;
+}
+.c {
+    grid-area: c;
+}
+.d {
+    grid-area: d;
+} 
+.e {
+    grid-area: e;
+}
+
+#d-grid {
+    display: grid;
+    gap:12px;
+    background-color: blue;
+    grid-template-areas: 'da da da da da da'
+    'db db db dc dc dc'
+    'db db db dc dc dc';
+}
+#da, #db, #dc {
+    display: grid;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    background-color: yellow;
+}
+#da {
+    grid-area: da;
+}
+#db {
+    grid-area: db;
+}
+#dc {
+    grid-area: dc;
+}
+#e-grid {
+    display: grid;
+    gap: 12px;
+    background-color: blue;
+    grid-template-areas: 'ea ea ea eb eb eb'
+    'ea ea ea eb eb eb'
+    'ec ec ec ec ec ec';
+}
+#e-grid > div {
+    display: grid;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    background-color: yellow;
+}
+#ea {
+    grid-area: ea;
+}
+#eb {
+    grid-area: eb;
+}
+#ec {
+    grid-area: ec;
+}
+

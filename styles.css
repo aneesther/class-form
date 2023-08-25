@@ -1,0 +1,117 @@
+body {
+    background-color: yellow;
+    color: white;
+}
+h1 {
+    background-color: grey;
+}
+#heading {
+    background-color: blueviolet;
+}
+.sub-heading {
+    color: azure;
+}
+span {
+    background-color: blue;
+}
+#buhari {
+    display: block;
+    background-color: green;
+}
+.example{
+    font-size: 34px;
+    color: brown;
+}
+#one {
+font-size: 64px;
+color: turquoise;
+}
+h1::first-letter
+   { 
+    font-size: 72px;
+   } 
+input[placeholder] {
+color: lawngreen;
+font-size: 12px;
+}
+input[type='search'] {
+    font-size: 32px;
+}
+input:active {
+    background-color: brown;
+}
+body{
+    background-color: green;
+}
+h4 {
+    color: aliceblue;
+    text-align: center;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color: red;
+}
+#para1 {
+    text-align: right;
+    color: yellowgreen;
+}
+.right {
+    text-align: right;
+    color: black;
+}
+p.center {
+    text-align: center;
+    color: skyblue;
+}
+p.large {
+    font-size: 100px;
+}
+* {
+    text-align: center;
+    color: blue;
+}
+h1, h2,p {
+    text-align: left;
+    color: bisque;
+}
+div p {
+    background-color: yellow;
+  }
+  div > p{
+    background-color: fuchsia;
+  }
+  div+p{
+    background-color: blueviolet;
+  } 
+  /* unvisited link */
+  a:link{
+    color:  red;
+  }
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  /* mouse overlink */
+  a:hover {
+    color: hotpink;
+  }
+  /* selected link */
+  a:active {
+    color: paleturquoise;
+  }
+div {
+    background-color: green;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+/* # for id selection */
+/* . for class selection */
+/*  attribute- element [attribute] */
+/* attribute value-element[attribute] */
+/* pseudo-class:selector:pseudo-class */
+/* selector {property: property-value;} */

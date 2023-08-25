@@ -1,0 +1,43 @@
+.FLEX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding: 16px;
+    width: 100%;
+    background-color: brown;
+}
+.AB-CONTAINER {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    gap: 16px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.de-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 350px;
+    width: 600px;
+    gap: 12px;
+}
+
+.C {
+    display: flex;
+    text-align: center;
+    background-color: blue;
+    height: 600px;
+    width: 300px
+
+}

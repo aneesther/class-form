@@ -1,0 +1,151 @@
+.parent {
+    display: flex;
+    flex-flow: column;
+    background-color: wheat;
+    width: 100%;
+    height: 600px;
+    gap: 16px;
+}
+#header {
+    background-color: darkgreen;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+.other1 {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+}
+#menu {
+    background-color: darkgreen;
+    width: 20%;
+    height: 100%;
+}
+.other2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 80%;
+    height: 100%;
+}
+.other3 {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    height: 50%;
+}
+#main {
+    background-color: darkgreen;
+    width: 60%;
+    height: 100%;
+}
+#right {
+    background-color: darkgreen;
+    width: 40%;
+    height: 100%;
+}
+#footer {
+    background-color: darkgreen;
+    width: 100%;
+    height: 50%;
+}
+.BADDEST-BOX {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+    background-color: yellow;
+    width: 1300px;
+    height: 600px;
+    gap: 16px;
+    padding: 20px 0px 20px 20px ;
+}
+.child {
+    background-color: blue;
+    width:400px ;
+    height: 200px;
+}
+#c {
+    background-color: blue;
+    width: 400px;
+    height:200px ;
+}
+.set1{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 390px;
+    height: 380px;
+    padding: 4px 4px 4px 4px;
+}
+#da {
+    background-color: red;
+    text-align: center;
+    width: 97%;
+    height: 150px;
+    margin: 4px 4px 4px 4px;
+}
+.setA {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 6px 6px 6px;
+
+}
+#db {
+    background-color: red;
+    /* flex-direction: column; */
+    text-align: center;
+    width: 180px;
+    height: 200px;
+    margin: 4px 4px 10px 10px;
+    /* gap: 16px; */
+}
+#dc {
+    background-color: red;
+    flex-direction: row;
+    text-align: center;
+    width: 180px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+}
+.set2 {
+    display: flex;
+    /* flex-direction:row; */
+    flex-flow: column wrap;
+    width: 390px;
+    height: 380px;
+    background-color: blue;
+    padding: 4px 4px 4px 4px;  
+}
+#ea {
+    background-color: red;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+#eb {
+    background-color: red;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;  
+}
+/* .setB {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 380px;
+    padding: 4px 4px 4px 4px;  
+}  */
+#ec {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    margin: 4px 4px 4px 4px;
+}

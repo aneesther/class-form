@@ -1,0 +1,96 @@
+# {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    height: 63px;
+    width: 100px;
+    background-color: #ffffff;
+}
+.web-nav {
+    display: none;
+}
+nav > p{
+    font-weight: 700;
+    font-size: 24px;
+}
+section {
+    height: 531px;
+    width: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.67)0%,
+        #ffffff 100%
+    ),
+    url(./);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
+.main-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+.main-parent > div {
+    width: 100%;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-Aone {
+    height: 198px;
+    background-image: url();
+}
+.main-Bone {
+    height: 310px;
+    background-image: url();
+}
+@media screen and (min-width:480px) {
+    nav{
+        padding: 16px 64px;
+        height: 88px;
+    }
+}
+.mobile-nav {
+    display: none;
+}
+.web-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.web-nav > button {
+    width: 135px;
+    height: 56px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 16px;
+}
+section {
+    height: 673px;
+}
+main {
+    padding: 16px 64px;
+    flex-direction: row;
+}
+.main-parent {
+    width: 25%;
+}
